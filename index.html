@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¡Descúbrelo ahora!</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="etapas_andamento">
+        <div class="progresso p1">
+          <span>1</span>
+        </div>
+        <div class="progresso p2">
+          <span>2</span>
+        </div>
+        <div class="progresso p3">
+          <span>3</span>
+        </div>
+        <div class="progresso p4">
+          <span>4</span>
+        </div>
+        <div class="progresso p5">
+          <span>5</span>
+        </div>
+        <div class="progresso p6">
+          <span>6</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h1 class="titulo">
+          ¡DESCUBRA CÓMO ESTE "SIMPLE RITUAL MATUTINO" CAMBIÓ MI VIDA E DE MI
+          ESPOSA!
+        </h1>
+        <span>Complete esta prueba rápida para continuar.</span>
+
+        <hr />
+
+        <!-- etapa 1 -->
+        <div class="etapa_1 etapa">
+          <h2>¿Es usted hombre o mujer?</h2>
+
+          <form action="" class="form form_etapa_1">
+            <label for="mul" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="mul"
+                id="mul"
+                required
+              />
+              <div>
+                <i class="fas fa-female"></i>
+                <span>Mujer</span>
+              </div>
+            </label>
+
+            <label for="hom" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="hom"
+                id="hom"
+                required
+              />
+              <div>
+                <i class="fas fa-male"></i>
+                <span>hombre</span>
+              </div>
+            </label>
+          </form>
+        </div>
+
+        <!-- etapa 2 -->
+        <div class="etapa_2 etapa">
+          <h2>¿Cuál es su grupo de edad?</h2>
+
+          <form action="" class="form form_etapa_2">
+            <label for="adol" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="adol"
+                id="adol"
+                required
+              />
+              <div>
+                <i class="fas fa-user-friends"></i>
+                <span>adolescentes</span>
+              </div>
+            </label>
+
+            <label for="20_29" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="20_29"
+                id="20_29"
+                required
+              />
+              <div>
+                <i class="fas fa-user-friends"></i>
+                <span>20 - 29</span>
+              </div>
+            </label>
+
+            <label for="30_39" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="30_39"
+                id="30_39"
+                required
+              />
+              <div>
+                <i class="fas fa-user-friends"></i>
+                <span>20 - 29</span>
+              </div>
+            </label>
+
+            <label for="40_49" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="40_49"
+                id="40_49"
+                required
+              />
+              <div>
+                <i class="fas fa-user-friends"></i>
+                <span>40 - 49</span>
+              </div>
+            </label>
+
+            <label for="50_59" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="50_59"
+                id="50_59"
+                required
+              />
+              <div>
+                <i class="fas fa-user-friends"></i>
+                <span>50 - 59</span>
+              </div>
+            </label>
+
+            <label for="60_69" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="60_69"
+                id="60_69"
+                required
+              />
+              <div>
+                <i class="fas fa-user-friends"></i>
+                <span>60 - 69</span>
+              </div>
+            </label>
+          </form>
+        </div>
+
+        <!-- etapa 3 -->
+        <div class="etapa_3 etapa">
+          <h2>¿Cuánto mide usted?</h2>
+
+          <form action="" class="form form_etapa_3">
+            <input type="range" min="0" max="300" value="60" class="altura" />
+
+            <span><span class="altura_local"> 50 </span> cm</span>
+
+            <button type="submit" class="et_btn etapa_3_btn">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- etapa 4 -->
+        <div class="etapa_4 etapa">
+          <h2>¿Cuál es su peso?</h2>
+
+          <form action="" class="form form_etapa_4">
+            <input
+              type="range"
+              min="0"
+              max="300"
+              value="50"
+              step="1"
+              class="peso"
+            />
+
+            <span><span class="exibir_peso">0</span> Kg</span>
+
+            <button type="submit" class="et_btn etapa_4_btn">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- etapa 5 -->
+        <div class="etapa_5 etapa">
+          <h2>¿Cómo de activo eres?</h2>
+
+          <form action="" class="form form_etapa_5">
+            <label for="pouco" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="pouco"
+                id="pouco"
+                required
+              />
+              <div>
+                <i class="fas fa-couch"></i>
+                <span>pocas actividades</span>
+              </div>
+            </label>
+
+            <label for="moderado" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="moderado"
+                id="moderado"
+                required
+              />
+              <div>
+                <i class="fas fa-walking"></i>
+                <span>moderadamente activo(a)</span>
+              </div>
+            </label>
+
+            <label for="muito" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="muito"
+                id="muito"
+                required
+              />
+              <div>
+                <i class="fas fa-biking"></i>
+                <span>Muy animado(a)</span>
+              </div>
+            </label>
+          </form>
+        </div>
+
+        <!-- etapa 5 -->
+        <div class="etapa_6 etapa">
+          <h2>¿Cómo de activo eres?</h2>
+
+          <form action="" class="form form_etapa_6">
+            <label for="r1" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="r1"
+                id="r1"
+                required
+              />
+              <div>
+                <span
+                  >no puedo crecer ni ganar músculo, no importa cúanto coma o se
+                  levante</span
+                >
+              </div>
+            </label>
+
+            <label for="r2" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="r2"
+                id="r2"
+                required
+              />
+              <div>
+                <span
+                  >soy "gordo y delgado". me veo delgada con ropa, pero tengo
+                  grasa corpora.</span
+                >
+              </div>
+            </label>
+
+            <label for="r3" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="r3"
+                id="r3"
+                required
+              />
+              <div>
+                <span
+                  >estoy contento com mi cuerpo, pero necesito perder una última
+                  capa de grasa.</span
+                >
+              </div>
+            </label>
+
+            <label for="r4" class="card_resposta">
+              <input
+                type="radio"
+                class="radio"
+                name="genero"
+                value="r4"
+                id="r4"
+                required
+              />
+              <div>
+                <span
+                  >no estoy contento con mi cuerpo y quiero perder mucho
+                  peso.</span
+                >
+              </div>
+            </label>
+          </form>
+        </div>
+
+        <div class="etapa_7 etapa">
+          <div class="card_resposta">
+            <h3 style="text-align: center">Obrigado!</h3>
+          </div>
+        </div>
+      </div>
+
+      <section class="faq ativo ">
+        <h2 class="titulo ativo">¿TE LO ESTÁS PENSANDO MEJOR?</h2>
+        <h3>
+          Vea si las respuestas a las preguntas más frecuentes pueden ayudarle:
+        </h3>
+
+        <dl class="faq-lista">
+          <dt>1 - ¿Por qué debo responder a estas preguntas?</dt>
+          <dd>
+            Para que podamos hacer una evaluación rápida y entender mejor lo que
+            necesita.
+          </dd>
+          <dt>2 - ¿Es seguro este sitio?</dt>
+          <dd>
+            Sí, utilizamos la tecnología de protección más avanzada de 256 bits.
+          </dd>
+        </dl>
+      </section>
+    </div>
+
+    <hr class="footer-separador" />
+
+    <footer class="container">
+      <h2 class="copy">©Copyright 2021 Todos los derechos reservados.</h2>
+
+      <span class="codigo">31.204.173/0001-00 </span>
+      <p>
+        Este sitio no está afiliado a Facebook ni a ninguna entidad de Facebook.
+        Una vez que sales de Facebook, no es su responsabilidad sino la de
+        nuestro sitio. Nos esforzamos por indicar claramente y mostrar todas las
+        pruebas de producto y utilizar resultados reales. No vendemos su correo
+        electrónico ni ninguna información a terceros. Nunca hacemos ningún tipo
+        de spam. Si tiene alguna pregunta, no dude en utilizar el enlace de
+        contacto y hablar con nosotros en horario de atención al público de
+        lunes a viernes de 9:00 a 18:00 horas. Leemos y contestamos todos los
+        mensajes por orden de llegada.
+      </p>
+
+      <div class="termos">
+        <a href="#">Condiciones de Uso </a> |
+        <a href="#"> Política de Privacidad</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
