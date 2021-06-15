@@ -81,9 +81,13 @@ function mudarTela() {
 
   radios_et6.forEach((r) => {
     r.addEventListener("click", () => {
-      etapa_6.style.display = "none";
-      etapa_7.style.display = "block";
-      p6.classList.add("ativo");
+      // etapa_6.style.display = "none";
+      // etapa_7.style.display = "block";
+      // p6.classList.add("ativo");
+
+      //Aqui adc a utl para qual deve ser redirecionada
+
+      window.location = "http://google.com";
     });
   });
 }
